@@ -4,10 +4,10 @@ A custom starter project using Turborepo, designed to integrate NextUI and Tailw
 
 ## Quick Start
 
-To create a new project using this starter, run:
-
 ```sh
-npx create-turbo@latest -e with-tailwind
+git clone https://github.com/ivanmeda993/nextui-tailwind-turborepo-starter.git
+pnpm install
+pnpm run dev
 ```
 
 
