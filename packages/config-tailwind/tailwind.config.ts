@@ -1,7 +1,9 @@
 import type { Config } from "tailwindcss";
+import { nextui } from "@nextui-org/react";
 
 // We want each package to be responsible for its own content.
-const config: Omit<Config, "content"> = {
+const config: Config = {
+  content: ["./src/**/*.tsx"],
   theme: {
     extend: {
       backgroundImage: {
@@ -10,6 +12,7 @@ const config: Omit<Config, "content"> = {
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [nextui()],
 };
 export default config;
