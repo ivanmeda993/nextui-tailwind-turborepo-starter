@@ -4,7 +4,7 @@ interface ExampleProps {}
 
 export const Example = ({}: ExampleProps) => {
   return (
-    <div className="text-2xl flex flex-col gap-2 items-center justify-center">
+    <div className="text-3xl flex flex-col gap-2 items-center justify-center">
       test
       <Button
         radius="full"
